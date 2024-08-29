@@ -1,0 +1,91 @@
+/* Polished styles for the CRUD application */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"] {
+    margin-bottom: 20px;
+    padding: 16px;
+    width: calc(100% - 32px);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e2e6ea;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.actions a:hover {
+    color: #0056b3;
+}
